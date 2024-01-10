@@ -1,0 +1,70 @@
+@import url();
+
+/* CUSTOM PROPS */
+
+:root{
+    --primary-blue: #0EB4C1;
+    --secondary-red: #DE2E54;
+    --white: #fff;
+    --opensans: "OpenSans";
+    --opensansCondensed: "OpenSans Condensed";
+}
+
+/* GLOBAL STYLES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* CONTAINER SIZE */
+
+.container{
+    max-width: 1130px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* BUTTON */
+
+.all-btn{
+    max-width: 189px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--secondary-red);
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: var(--white);
+    font-family: var(--opensansCondensed);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid var(--secondary-red);
+    transition: .5s;
+}
+
+.all-btn:hover{
+    background-color: var(--white);
+    color: var(--secondary-red);
+}
+
+.all-btn:active{
+    background-color: var(--secondary-red);
+    color: var(--white);
+    opacity: .6s;
+}
