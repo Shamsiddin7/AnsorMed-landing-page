@@ -44,11 +44,9 @@ body{
 /* BUTTON */
 
 .all-btn{
-    max-width: 189px;
-    width: 100%;
+    padding: 12px 24px;
     border-radius: 8px;
     background-color: var(--secondary-red);
-    display: block;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -178,6 +176,11 @@ body{
     align-items: center;
 }
 .service-title {
+    font-family: var(--opensansCondensed);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 56px;
 }
 .service-item {
     max-width: 864px;
@@ -213,4 +216,37 @@ body{
     line-height: 150%;
 }
 /* SERVICE */
+
+/* CONTACT */
+.contact {
+    background-color: var(--primary-blue);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+.contact-title {
+    color: white;
+    font-family: var(--opensansCondensed);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.contact-info {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-info a{
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+.contact-info a:hover{
+    background-color: var(--secondary-red);
+    color: var(--white);
+    border: 2px solid var(--secondary-red);
+}
+/* CONTACT */
 /* SITE-MAIN */
