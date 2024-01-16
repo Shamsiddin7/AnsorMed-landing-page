@@ -250,3 +250,40 @@ body{
 }
 /* CONTACT */
 /* SITE-MAIN */
+
+/* SITE-FOOTER */
+.footer {
+    background-color: #222;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-logo {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-logo:active{
+    color: var(--white);
+}
+.footer-list {
+    display: flex;
+    column-gap: 32px;
+}
+.footer-link {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--opensans);
+    text-transform: uppercase;
+    line-height: 150%;  
+    transition: .5s;
+}
+.footer-link:hover{
+    color: var(--secondary-red);
+}
+.footer-link:active{
+    opacity: .6;
+    color: var(--white);
+}
+/* SITE-FOOTER */
